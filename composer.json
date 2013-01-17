@@ -4,6 +4,7 @@
     "keywords": ["shaun", "php"],
     "homepage": "http://www.google.com/",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Shaun Farrell",
@@ -11,15 +12,9 @@
             "homepage": "http://www.google.com/"
         }
     ],
-    "version": "1.0",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/farrelley/composer-test"
-        }
-    ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "monolog/monolog": "1.0.0"
     },
     "autoload": {
         "psr-0": {"Shaun": "src/"}
